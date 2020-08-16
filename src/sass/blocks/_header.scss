@@ -1,0 +1,45 @@
+.header {
+    background-color: #749c8d;
+    min-height: 80px;
+    padding-top: 20px;
+
+    &__content {
+        @include flex-box();
+    }
+
+    &__logo {}
+
+    &__social {}
+}
+
+
+
+.logo {
+
+    &__link {}
+
+    &__img {}
+}
+
+.social {
+
+    &__ring {
+        margin: 0 6px;
+    }
+
+    &__icon {}
+}
+
+.bunner {
+    background: url(../img/bunner.png) center (center/100%) no-repeat;
+    min-height: 445px;
+    width: 100%;
+    margin-top: 17px;
+    margin-bottom: 64px;
+
+    &__img {
+        display: block;
+        margin: 0 auto;
+        transform: translateY(-20px);
+    }
+}

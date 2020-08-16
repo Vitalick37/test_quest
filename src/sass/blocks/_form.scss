@@ -1,0 +1,38 @@
+.form {
+    position: relative;
+    margin-top: 82px;
+    margin-bottom: 56px;
+
+    &__content {}
+
+    input {
+        font-size: 20.8px;
+        text-align: center;
+        color: #000000;
+        border: none;
+        height: 43px;
+        width: 284px;
+        @include btn-use();
+    }
+}
+
+.double-arrow {
+    position: absolute;
+    transform: translate(0, -50%);
+    top: 50%;
+    &_left {
+        left: 84px;
+    }
+
+    &_right {
+        right: 84px;
+    }
+}
+
+.container {}
+
+.feed-form {
+    background-color: #749c8d;
+    @include flex-box();
+    padding: 26px 12px;
+}

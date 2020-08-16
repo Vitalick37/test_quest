@@ -1,0 +1,29 @@
+.promo {
+  // min-height: 140px;
+  margin-bottom: 48px;
+
+  &__content {
+    @include flex-box();
+    background: url(../img/promo/bg.jpg) center (center) no-repeat;
+    min-height: 140px;
+  }
+
+  &__img {
+    display: block;
+    margin-top: 61px;
+  }
+
+  &__title {
+@include adaptiv-font(48, 30);
+    // font-size: 48px;
+    line-height: 1.3;
+    letter-spacing: 1.92px;
+    color: #004734;
+text-align: center;
+margin: 0 auto;
+    span {
+      color: #d8481c;
+      font-size: 52px;
+    }
+  }
+}
